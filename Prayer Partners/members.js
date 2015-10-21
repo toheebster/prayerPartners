@@ -26,6 +26,7 @@ var chloe = new Member("Chloe", false, false, "girl", false, [jamie,naomi,ashley
 var crystal = new Member("Crystal", false, false, "girl", false, [rina,ashley,jamie]);
 var julie = new Member("Julie", false, false, "girl", false, [grace,yoonjung,naomi]);
 var ashley = new Member("Ashley", false, false, "girl", false, [yoonjung,crystal,chloe]);
+var yen = new Member("Yen", false, false, "girl", false, []);
 
 var paul = new Member("Paul", true, false, "boy", false, [ajie,jacky,mingu,mac,joowon]);
 var toheeb = new Member("Toheeb", true, false, "boy", false, [mingu,mac,michael]);
@@ -38,7 +39,7 @@ var joowon = new Member("Joowon", false, false, "boy", false, [paul]);
 var jacky = new Member("Jacky", false, false, "boy", false, [felix, mac,michael,paul]);
 var daniel = new Member("Daniel", false, false, "boy", false,[]);
 var jared = new Member("Jared", false, false,"boy",false,[]);
-var yen = new Member("Yen", false, false, "girl", false, []);
+// var test = new Member("test", false, false,"boy",false,[]);
 
 
 var girls = [ 
@@ -52,7 +53,8 @@ var girls = [
 	chloe,
 	crystal,
 	julie,
-	ashley
+	ashley,
+	yen
 ];
 
 var boys = [
@@ -65,7 +67,8 @@ var boys = [
 	michael,
 	joowon,
 	jacky,
-	daniel
+	daniel,
+	jared
 ];
 
 var allMembers = [
@@ -89,7 +92,10 @@ var allMembers = [
 	michael,
 	joowon,
 	jacky,
-	daniel
+	daniel,
+	yen,
+	jared
+	// test
 ];
 
 exports.allMembers = allMembers;

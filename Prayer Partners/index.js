@@ -4,16 +4,16 @@ var boys = members.boys;
 var girls = members.girls;
 var everybody = members.allMembers;
 
-logic.shuffle(boys);
-logic.shuffle(girls);
-// logic.shuffle(everybody);
+// logic.shuffle(boys);
+// logic.shuffle(girls);
+logic.shuffle(everybody);
 
-logic.prayerPartnersBoys(boys, 9);
-console.log("---");
-logic.prayerPartnersGirls(girls, 10);
+// logic.prayerPartnersBoys(boys, 11);
+// console.log("---");
+// logic.prayerPartnersGirls(girls, 12);
 
 // console.log("---");
-// logic.prayerPartnersEverybody(everybody, 21)
+logic.prayerPartnersEverybody(everybody, 23) //23 members
 
 //reminder - made special case because of odd numbers
 /* So I'll only loop through up to my array length - 1
