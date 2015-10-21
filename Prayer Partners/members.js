@@ -28,15 +28,17 @@ var julie = new Member("Julie", false, false, "girl", false, [grace,yoonjung,nao
 var ashley = new Member("Ashley", false, false, "girl", false, [yoonjung,crystal,chloe]);
 
 var paul = new Member("Paul", true, false, "boy", false, [ajie,jacky,mingu,mac,joowon]);
-var toheeb = new Member("Toheeb", true, false, "boy", false, [mingu,mac]);
+var toheeb = new Member("Toheeb", true, false, "boy", false, [mingu,mac,michael]);
 var mac = new Member("Mac", false, false, "boy", false, [michael,mingu,toheeb,paul]);
 var felix = new Member("Felix", false, false, "boy", false, [jacky,paul,joowon]);
 var mingu = new Member("Mingu", false, false, "boy", false, [toheeb,ajie,paul]);
 var ajie = new Member("Ajie", false, false, "boy", false, [paul,toheeb]);
-var michael = new Member("Michael", false, false, "boy", false, [mac,felix,jacky]);
+var michael = new Member("Michael", false, false, "boy", false, [mac,felix,jacky,toheeb]);
 var joowon = new Member("Joowon", false, false, "boy", false, [paul]);
 var jacky = new Member("Jacky", false, false, "boy", false, [felix, mac,michael,paul]);
 var daniel = new Member("Daniel", false, false, "boy", false,[]);
+var jared = new Member("Jared", false, false,"boy",false,[]);
+var yen = new Member("Yen", false, false, "girl", false, []);
 
 
 var girls = [ 
